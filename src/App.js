@@ -1,12 +1,12 @@
 import './App.css';
-import React, {useState} from 'react';
-import Algorithm from './components/Algorithm';
+import React,{useState} from 'react';
+import Luhn from './components/Luhn';
 
 function App() {
   return (
     <>
-      <h3 id='message'>Enter your card number below.</h3>
-  <Algorithm></Algorithm>
+      <h3>Enter A Card number (Card Theivery may vary)</h3>
+  <Luhn></Luhn>
     </>
   );
 }
